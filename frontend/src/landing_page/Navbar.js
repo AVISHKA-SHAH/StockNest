@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
 function Navbar() {
   return (
     <nav
@@ -6,14 +8,14 @@ function Navbar() {
       style={{ backgroundColor: "#fff" }}
     >
       <div className="container p-2">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             style={{ width: "30%" }}
             alt="Logo"
             className="img-fluid"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -29,29 +31,29 @@ function Navbar() {
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <Link className="nav-link " aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <Link className="nav-link " to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <Link className="nav-link " to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <Link className="nav-link " to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
