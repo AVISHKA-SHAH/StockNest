@@ -1,40 +1,7 @@
 import React from "react";
 function Hero() {
   return (
-    <div className="container p-5 mb-5">
-      <div className="row text-center">
-        <div className="col">
-          <img
-            src="media/images/homeHero.png"
-            alt="Hero"
-            className="img-fluid mb-5"
-            style={{ width: "80%", margin: "0 auto", display: "block" }}
-          />
-          <h1 className="mt-5">Invest in Everything </h1>
-          <p>
-            Online platform to invest in stocks, derivatives, mutual funds and
-            more.
-          </p>
-          <button
-            className="p-2 btn btn-primary fs-5 mb-5"
-            style={{ width: "20%", margin: "0 auto" }}
-          >
-            Signup Now
-          </button>
-          <h1 className="mt-5">Open a StockNest account </h1>
-          <p>
-            Modern platforms and apps, &#8377;0 investments, and flat &#8377;20
-            intraday and F&O trades
-          </p>
-          <button
-            className="p-2 btn btn-primary fs-5 mb-5"
-            style={{ width: "20%", margin: "0 auto" }}
-          >
-            Sign up Now
-          </button>
-        </div>
-      </div>
-    </div>
+    <Hero/>
   );
 }
 

@@ -9,6 +9,7 @@ function PricingPage() {
     return (
         <>
             <Hero/>
+            <OpenAcccount/>
             <Brokerage/>
 
         </>
